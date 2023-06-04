@@ -8,6 +8,7 @@ sudo apt upgrade
 
 sudo apt install git
 
+
 <<MAVSDK 라이브러리 설치>>
 
 UBUNTU 20.04인경우
@@ -23,6 +24,7 @@ sudo dpkg -i  libmavsdk-dev_1.4.9_ubuntu20.04_amd64.deb
 ### sudo dpkg -i  libmavsdk-dev_1.4.9_ubuntu18.04_amd64.deb
 
 ​
+
 <<PX4 toolchain 설치 >>
 
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
@@ -33,6 +35,7 @@ bash ~/PX4-Autopilot/Tools/setup/ubuntu.sh
 
 
 ​
+
 <<QgroundControl 설치 >>
 
 sudo usermod -a -G dialout $USER
@@ -50,6 +53,7 @@ chmod +x ./QGroundControl.AppImage
 ./QGroundControl.AppImage
 
 
+
 << Mavsdk 설치 >>
 
 pip3 install mavsdk
@@ -61,9 +65,11 @@ echo "export PATH=$PATH:$HOME/.local/bin" >> ~/.bashrc
 source ~/.bashrc 
 
 
+
 <<기타>>
 
 sudo apt-get install python3-dev python3-opencv python3-wxgtk4.0 python3-pip python3-matplotlib python3-lxml python3-pygame
+
 
 
 <<실행>>
