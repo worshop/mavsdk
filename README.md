@@ -17,11 +17,11 @@ wget https://github.com/mavlink/MAVSDK/releases/download/v1.4.9/libmavsdk-dev_1.
 
 sudo dpkg -i  libmavsdk-dev_1.4.9_ubuntu20.04_amd64.deb
 
-### UBUNTU 18.04인경우
+/// UBUNTU 18.04인경우
 
-### wget https://github.com/mavlink/MAVSDK/releases/download/v1.4.9/libmavsdk-dev_1.4.9_ubuntu18.04_amd64.deb
+/// wget https://github.com/mavlink/MAVSDK/releases/download/v1.4.9/libmavsdk-dev_1.4.9_ubuntu18.04_amd64.deb
 
-### sudo dpkg -i  libmavsdk-dev_1.4.9_ubuntu18.04_amd64.deb
+/// sudo dpkg -i  libmavsdk-dev_1.4.9_ubuntu18.04_amd64.deb
 
 ​
 
