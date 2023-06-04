@@ -82,5 +82,5 @@ $HOME/.local/lib/python3.8/site-packages/mavsdk/bin/mavsdk_server
 
 cd PX4-Autopilot
 
-make px4_sitl gazebo-classic_iris
+make px4_sitl_default jmavsim
 
