@@ -1,6 +1,7 @@
 # mavsdk
 
 <UBUNTU 20.04 install >
+VMware 에 새로운 ubuntu 20.04 를 설치하여 진행합니다.
 
 sudo apt update
 
